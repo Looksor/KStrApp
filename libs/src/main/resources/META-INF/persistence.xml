@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence>
+    <persistence-unit name="KS_APP">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <jta-data-source>java:/somePG_DB</jta-data-source>
+        <properties>
+
+        </properties>
+    </persistence-unit>
+</persistence>
